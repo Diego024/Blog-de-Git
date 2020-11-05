@@ -6,20 +6,24 @@ body {
     padding: 0;
 }
 #container {
+
     width: 70%;
     padding: 0;
     text-align: left;
-    border: 1px solid #DDD;
     margin: 0 auto;
+    border: black 1px solid;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0,0,0.5);
+    
 }
 
 #cabecera {
-    background: #33A;
+    background: white;
     box-shadow: 0px 2px 20px 0px rgba(0, 0,0,0.5);
-    color:white;
+    color:black;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
+    border: black 1px solid;
 }
 
 #cabecera #tagline {
@@ -28,11 +32,18 @@ body {
     font-size: 0.8em;
 }
 
+#cabecera #logo {
+    width: 40px;
+    vertical-align: middle;
+}
+
 #container h1 {
     font-size: 20px;
 }
 
 #post {
+    color: white;
     padding: 1em;
-
+    background:#0047b3;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0,0,0.5);
 }
