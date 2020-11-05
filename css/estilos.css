@@ -44,10 +44,6 @@ body {
 #post {
     color: white;
     padding: 1em;
-<<<<<<< HEAD
-    background:#0047b3;
-    box-shadow: 0px 2px 20px 0px rgba(0, 0,0,0.5);
-=======
 
 }
 
@@ -56,5 +52,4 @@ body {
     color:white;
     text-align:center;
     padding: 0.5em;
->>>>>>> footer
 }
