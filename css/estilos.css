@@ -1,3 +1,6 @@
+*{
+    padding: 5px;
+}
 body {
     text-align: center;
     font-family: 'Arial';
@@ -11,14 +14,14 @@ body {
     padding: 0;
     text-align: left;
     margin: 0 auto;
-    border: black 1px solid;
+    
     box-shadow: 0px 2px 20px 0px rgba(0, 0,0,0.5);
     
 }
 
 #cabecera {
     background: white;
-    box-shadow: 0px 2px 20px 0px rgba(0, 0,0,0.5);
+    
     color:black;
     font-weight: bold;
     margin: 0;
@@ -44,7 +47,9 @@ body {
 #post {
     color: white;
     padding: 1em;
-
+    background: #0047b3;
+    
+    border: black 1px solid;
 }
 
 #footer{
@@ -52,4 +57,6 @@ body {
     color:white;
     text-align:center;
     padding: 0.5em;
+    
+    border: black 1px solid;
 }
